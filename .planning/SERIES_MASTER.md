@@ -57,5 +57,6 @@
 |-----|-------|--------|------|
 | 1 | The Realization | Drafted | articles/day-1.md |
 | 2 | Directives vs Prompts | Drafted | articles/day-2.md |
+| 3 | Layer 1 (Directive) | Drafted | articles/day-3.md |
 | ... | ... | ... | ... |
 </tracking_table>
