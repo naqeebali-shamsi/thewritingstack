@@ -1,7 +1,7 @@
-# Project: Technical Blog Engine (GSD Edition)
+# Project: TheWritingStack
 
 <context>
-This project is a precision-engineered writing system designed to produce high-impact technical articles for Mid-Senior Engineers and Tech Leads. It follows the principles of the "Expert Pragmatist" and uses the "Get Shit Done" (GSD) workflow framework.
+This project is a precision-engineered writing system designed to produce high-impact technical articles for Mid-Senior Engineers and Tech Leads. It follows the principles of the "Expert Pragmatist."
 </context>
 
 <goals>

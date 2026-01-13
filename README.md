@@ -1,8 +1,8 @@
-# TheWritingStack (GSD Edition)
+# TheWritingStack
 
 > "Stop Prompting. Start Architecting."
 
-TheWritingStack is a precision-engineered content engine for Claude Code CLI. Built on the 3-Layer GSD (Get Shit Done) architecture, it transforms raw technical ideas into high-fidelity technical articles and LinkedIn posts.
+TheWritingStack is a precision-engineered content engine for Claude Code CLI. Built on a modular 3-Layer architecture, it transforms raw technical ideas into high-fidelity technical articles and LinkedIn posts.
 
 ## The Philosophy: 3-Layer Agentics
 
