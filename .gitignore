@@ -10,3 +10,8 @@ __pycache__/
 *.swp
 *~
 .DS_Store
+
+# Personal Content
+articles/
+.planning/SERIES_MASTER.md
+.planning/articles/
