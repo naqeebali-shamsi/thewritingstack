@@ -1,60 +1,56 @@
-# 🧠 TheWritingStack (GSD Edition)
+# TheWritingStack (GSD Edition)
 
-> **"Stop Prompting. Start Architecting."**
+> "Stop Prompting. Start Architecting."
 
-This is a precision-engineered content engine for Claude Code CLI. Built on the **3-Layer GSD (Get Shit Done)** architecture, **TheWritingStack** transforms raw technical ideas into high-fidelity, "Expert Pragmatist" technical articles and LinkedIn posts.
+TheWritingStack is a precision-engineered content engine for Claude Code CLI. Built on the 3-Layer GSD (Get Shit Done) architecture, it transforms raw technical ideas into high-fidelity technical articles and LinkedIn posts.
 
-## 🚀 The Philosophy: 3-Layer Agentics
+## The Philosophy: 3-Layer Agentics
 
-Most AI-generated content fails because it lacks **System Design**. This engine enforces a separation of concerns:
+Most AI-generated content fails due to a lack of system design. This engine enforces a strict separation of concerns to maintain technical authenticity and high takeoff density:
 
-1.  **Layer 1: Directive (The Intent)**: Markdown-based SOPs that define goals, constraints, and "Definition of Done."
-2.  **Layer 2: Orchestration (Decision Making)**: The Claude Skill layer that decides which tools to call and manages state.
-3.  **Layer 3: Execution (Doing the Work)**: Local scripts and web tools that handle the heavy lifting (Research, Generation, Linting).
+1. **Layer 1: Directive (The Intent)**: Markdown-based SOPs defining goals, constraints, and "Definition of Done."
+2. **Layer 2: Orchestration (Decision Making)**: The Claude Skill layer that manages state and intelligently routes tasks.
+3. **Layer 3: Execution (Doing the Work)**: Local scripts and web tools for research, generation, and linting.
 
----
+## Features
 
-## 🛠️ Features
+- **Architected Writing Framework**: Enforces atomic writing, contrast hooks, and takeaway density.
+- **ByteByteGo Visuals**: Automated generation of technical diagram prompts for high information density.
+- **Context Locking**: Prevents "agentic drift" by enforcing state awareness across sessions.
+- **Resilient Research**: Specialized modules for deep technical research using browser subagents.
 
-- **Architected Writing Framework**: Enforces Atomic Writing, Contrast Hooks, and Takeaway Density.
-- **ByteByteGo Visuals**: Automated generation of technical diagrams via DALL-E/Midjourney prompts.
-- **Context-Injection**: Automatically reads project state and roadmaps before every action to prevent "Agentic Drift."
-- **Resilient Research**: Specialized skills for deep technical research via browser subagents and MCP.
+## Installation
 
----
-
-## 📦 How to Use with Claude Code CLI
-
-### 1. Install the Skills
-Clone this repo and move the `.claude/skills` directory into your project's `.claude/` folder.
+Initialize TheWritingStack in any project directory using npx:
 
 ```bash
-cp -r .claude/skills your-project/.claude/
+npx thewritingstack-init
 ```
 
-### 2. Available Commands
+This command constructs the necessary directory structure (.claude/skills, .planning, and templates) within your current workspace.
+
+## Available Commands
 
 | Command | Description |
 |---------|-------------|
-| `/blog:init` | Initialize a new article specification from a topic. |
-| `/blog:research` | Perform deep technical research on the current article. |
-| `/series:init` | Map out a 30-day learning-in-public journey. |
-| `/series:post [day]` | Generate a high-impact, architected LinkedIn post for a specific day. |
+| `/blog:init` | Initialize a new article specification. |
+| `/blog:research` | Deep technical research via web search and browser subagents. |
+| `/series:init` | Plan a 30-day "Learning in Public" journey. |
+| `/series:post [day]` | Generate an architected LinkedIn post for the specified day. |
 
----
-
-## 🏗️ Project Structure
+## Project Structure
 
 ```text
 .
-├── .claude/skills/       # The "Brain" (Claude Skills)
-├── .planning/            # The "Logic" (PROJECT, ROADMAP, STATE)
+├── .claude/skills/       # Core skills (The Brain)
+├── .planning/            # Project logic and state (The Logic)
 ├── templates/            # High-signal content templates
-└── articles/             # Generated output
+└── articles/             # Drafted and finalized outputs
 ```
 
-## 🤝 Contributing
-Built for the community of **Expert Pragmatists**. If you have an architectural improvement or a new writing framework, PRs are welcome.
+## Contributing
+
+Built for the community of Expert Pragmatists. If you have architectural improvements or new writing frameworks, PRs are welcome.
 
 ---
-*Created by [Naqeebali](https://github.com/glittercowboy/get-shit-done)*
+*Created by [Naqeebali](https://github.com/naqeebali-shamsi/thewritingstack)*
