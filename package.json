@@ -1,0 +1,28 @@
+{
+  "name": "thewritingstack",
+  "version": "1.0.0",
+  "description": "Precision-engineered content engine for Claude Code CLI.",
+  "main": "index.js",
+  "bin": {
+    "thewritingstack-init": "bin/install.js"
+  },
+  "files": [
+    "bin",
+    ".claude",
+    ".planning",
+    "templates",
+    "articles"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "claude",
+    "agentic",
+    "writing",
+    "gsd",
+    "ai"
+  ],
+  "author": "Naqeebali",
+  "license": "MIT"
+}
